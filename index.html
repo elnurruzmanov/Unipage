@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>Test</title>
+  </head>
+
+  <body>
+    <section class="container">
+      <form class="form">
+        <i class="fas fa-search"></i>
+        <input
+          type="text"
+          id="search-item"
+          placeholder="Search products"
+          onkeyup="search()"
+        />
+      </form>
+      <div class="product-list" id="product-lists">
+          <div class="product">
+          <img src="./style/Images/Uzbekistan.jpg" alt="" />
+          <div class="p-details">
+            <h2>Courses in Uzbekistan</h2>
+            <h3>1000$</h3>
+             <a href="https://www.invensislearning.com/uz/" class="information-link">Learn more...</a>
+          </div>
+         
+        </div>
+        <div class="product">
+          <img src="./style/Images/Harvard.jpg" alt="" />
+          <div class="p-details">
+            <h2>Courses in England</h2>
+            <h3>15000$</h3>
+            <a href="https://www.wlv.ac.uk/courses/careers-in-digital-and-cyber/?utm_source=Google&utm_medium=Paid_Search&utm_campaign=Pre_Clearing&gclsrc=aw.ds&gclid=CjwKCAjwwo-WBhAMEiwAV4dybWFUAka39NL2igY8bHA0zc2kZ3VsZd2qr6jougPIeYrHqZ_zuNw-nxoCFhIQAvD_BwE" class="information-link">Learn more...</a>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="./style/Images/Moscow.jpg" alt="" />
+          <div class="p-details">
+            <h2>Courses in Russia</h2>
+            <h3>500$</h3>
+            <a href="https://educalanguageschool.com/?gclid=CjwKCAjwwo-WBhAMEiwAV4dybUqvrat4WLO5Y845QUOHAIgrxUQYOSbmBhn2cY5rLcMui_9CW2O9oxoCA_QQAvD_BwE" class="information-link">Learn more...</a>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="./style/Images/Germany.jpg" alt="" />
+          <div class="p-details">
+            <h2>Courses in Germany</h2>
+            <h3>3230$</h3>
+            <a href="https://www.sprachartberlin.de/de/?gclid=CjwKCAjwwo-WBhAMEiwAV4dybaFkejQ143sbJc_hy58VL_zbGQRV7WTRtQcSO64AALYoDfUhXjzSthoC9isQAvD_BwE" class="information-link">Learn more...</a>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="./style/Images/Italy.jpg" alt="" />
+          <div class="p-details">
+            <h2>Courses in Italy</h2>
+            <h3>2300$</h3>
+            <a href="https://www.azetainfotec.com/" class="information-link">Learn more...</a>
+          </div>
+        </div>
+
+        <div class="product">
+          <img src="./style/Images/China.jpg" alt="" />
+          <div class="p-details">
+            <h2>Courses in China</h2>
+            <h3>31000$</h3>
+            <a href="https://ads.lingoace.com/core-h5/frontH5/?workId=28&channel=PM-GG-SE-AD-YTH&UTMMedium=GG&UTMSource=SE&UTMName=YTH_Chinese_HK_mia_0601&UTMContent=EN_Broad&UTMTerm=356177625527&gclid=CjwKCAjwwo-WBhAMEiwAV4dybTtkL2P97cuzZWhYPWkfeAPaWVs4rrdBqNIfG2wquyY_w7diCqSBixoCLdoQAvD_BwE" class="information-link">Learn more...</a>
+          </div>
+        </div>
+        <div class="product">
+          <img src="./style/Images/USA.jpg" alt="" />
+          <div class="p-details">
+            <h2>Courses in USA</h2>
+            <h3>21000$</h3>
+            <a href="https://www.gbc.edu/admissions/apply/international-grad.html?utm_source=PSL&utm_medium=Search&utm_campaign=International_Students&gclid=CjwKCAjwwo-WBhAMEiwAV4dybToY0eD0RpQ4SrDSOYftPMqm-mpD0qQpcvfLQMpxMr43f3qFiLMtXBoCBWgQAvD_BwE" class="information-link">Learn more...</a>
+          </div>
+        </div>
+        <div class="product">
+          <img src="./style/Images/Kazakhstan.jpg" alt="" />
+          <div class="p-details">
+            <h2>Courses in Kazakhstan</h2>
+            <h3>2000$</h3>
+            <a href="https://www.academiccourses.com/Kazakhstan/" class="information-link">Learn more...</a>
+          </div>
+        </div>
+        <div class="product">
+          <img src="./style/Images/France.jpg" alt="" />
+          <div class="p-details">
+            <h2>Courses in France</h2>
+            <h3>12000$</h3>
+            <a href="https://www.languageteams.com/en/language-courses/?gclid=CjwKCAjwwo-WBhAMEiwAV4dybc3tl_MpMBxoE_ahSWxoRm3nIm9l3Higmi7lKPK-8wnoEV5SVVK-vxoCnFYQAvD_BwE" class="information-link">Learn more...</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="./JS/script.js"></script>
+  </body>
+</html>
